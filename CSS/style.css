@@ -318,7 +318,7 @@ padding:0px 20px
 .contact-form{
 
     background-image: linear-gradient(110deg,rgba(255, 255, 255, 0.426),rgba(255, 255, 255, 0.1));
-    padding: 50px;
+    padding: 20px;
     border-radius: 30px;
 }
 
@@ -364,7 +364,7 @@ padding:0px 20px
 /* footer */
 /* MEDIA */
 
-@media (min-width:0px) and  (max-width: 768px) {
+@media (min-width:0px) and  (max-width: 576px) {
     /* main-section */
     .title{
         font-size: 70px;
@@ -398,7 +398,7 @@ padding:0px 20px
     }
     .yellow-bar{
         background: #FCA311;
-    width: 170px;
+    width: 120px;
   height: 15px !important;
   border-radius: 10px;
   opacity: 1 !important;
@@ -406,7 +406,7 @@ padding:0px 20px
     }
     .bg-bar{
         background: #C4C4C4;
-    width: 180px;
+    width: 130px;
   height: 15px !important;
   border-radius: 10px;
   opacity: 1 !important;
