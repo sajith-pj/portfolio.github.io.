@@ -149,23 +149,11 @@ header{
 }
 /* QUALIFICATION-SECTION */
 /* SKILLS */
-.skill-list{
-    display: block;
-    flex-direction: column;
-    padding: 10px;
-}
-.skill-container-html{
+.icon-img-container{
     display: flex;
-    align-items: center;
-    background: white;
-    padding: 10px;
-    border-radius: 20px;
-    width: 50%;
-    height: 70px;
-    position: relative;
-    margin-top: 50px;
+    justify-content: center;
 }
-.skill-container-css{
+.skill-container{
     display: flex;
     align-items: center;
     background: white;
@@ -174,65 +162,53 @@ header{
     height: 70px;
     position: relative;
     margin-top: 50px;
-    float: right;
-    width: 50%;
-}
-.skill-container-js{
-    display: flex;
-    align-items: center;
-    background: white;
-    padding: 10px;
-    border-radius: 20px;
-    height: 70px;
-    position: relative;
-    margin-top: 50px;
-    float: left;
-    width: 50%;
-}
-.skill-container-bootstrap{
-    display: flex;
-    align-items: center;
-    background: white;
-    padding: 10px;
-    border-radius: 20px;
-    height: 70px;
-    position: relative;
-    margin-top: 50px;
-    float: right;
-    width: 50%;
+    width: 60%;
 }
 .icon-img{
     width: 60px;
-    height: 70px;
-    padding: 10px;
+    height: auto;
+    padding: 10px 15px;
+}
+.meter{
+    width: 100%;
+    height: 20px;
+    background: rgb(224, 224, 224);
+    border-radius: 30px;
+    z-index: 10;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.meter .bar{
+    width: 90%;
+    height: 20px;
+    background: #FCA311;
+    border-radius: 30px;
+    z-index: 11;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.meter .bar-js{
+    width: 80%;
+    height: 20px;
+    background: #FCA311;
+    border-radius: 30px;
+    z-index: 11;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 .bar-graph-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    left: 50px;
+    height: 100%;
 }
-.yellow-bar{
-    background: #FCA311;
-    width: 210px;
-  height: 15px !important;
-  border-radius: 10px;
-  opacity: 1 !important;
-  z-index: 10;
-}
-.bg-bar{
-    background: #C4C4C4;
-    width: 240px;
-  height: 15px !important;
-  border-radius: 10px;
-  opacity: 1 !important;
-  position: absolute;
-  left: 0;
-}
-.pecentage{
-    position: absolute;
-    right: 50px;
+.percentage{
+    font-weight: 700;
+     position: absolute;
+     top: 20px;
 }
 .skill-caption-container{
     border: 2px solid white;
@@ -367,7 +343,7 @@ padding:0px 20px
 @media (min-width:0px) and  (max-width: 576px) {
     /* main-section */
     .title{
-        font-size: 70px;
+        font-size: 30px;
         margin-left: 30px;
     }
     .intro-text{
@@ -383,37 +359,6 @@ padding:0px 20px
         padding: 10px;
     }
     /* about */
-    /* skills */
-    .skill-container-html{
-        width: 100%;
-    }
-    .skill-container-css{
-        width: 100%;
-    }
-    .skill-container-js{
-        width: 100%;
-    }
-    .skill-container-bootstrap{
-        width: 100%;
-    }
-    .yellow-bar{
-        background: #FCA311;
-    width: 120px;
-  height: 15px !important;
-  border-radius: 10px;
-  opacity: 1 !important;
-  z-index: 10;
-    }
-    .bg-bar{
-        background: #C4C4C4;
-    width: 130px;
-  height: 15px !important;
-  border-radius: 10px;
-  opacity: 1 !important;
-  position: absolute;
-  left: 0;
-    }
-    /* skills */
     /* works */
     .works{
         display: flex; 
