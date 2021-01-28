@@ -363,7 +363,8 @@ padding:0px 20px
 }
 /* footer */
 /* MEDIA */
-@media(max-width:567px){
+
+@media (min-width:0px) and  (max-width: 768px) {
     /* main-section */
     .title{
         font-size: 70px;
