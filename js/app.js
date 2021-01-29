@@ -26,8 +26,7 @@ let about = gsap.timeline( {
         trigger:aboutSection,
         start: "top 60% ",
         end:"center 10%",
-        toggleActions: "play reverse restart reverse", 
-       markers:false,
+        toggleActions: "play reverse restart reverse"
       
     } // start the animation when ".box" enters the viewport (once) 
   });
@@ -45,9 +44,8 @@ let ql = gsap.timeline( {
         trigger:qualification,
         start: "top 80% ",
         end:"center 10% ",
-        toggleActions: "play reverse restart reverse", 
-       markers:false,
-      
+        toggleActions: "play reverse restart reverse"
+    
     } // start the animation when ".box" enters the viewport (once) 
   });
   ql.fromTo(q1, {opacity:"0" ,x:-100}, {duration:1,opacity:"1" ,x:0,ease: "power2.inOut"})
@@ -61,10 +59,8 @@ let skill = gsap.timeline( {
         trigger:skillContainer,
         start: "top 80% ",
         end:"center 10% ",
-        toggleActions: "play reverse restart reverse", 
-       markers:false,
-      
-    } // start the animation when ".box" enters the viewport (once) 
+        toggleActions: "play reverse restart reverse"
+    } // start the animation when ".box" enters the viewort (once) 
   });
 skill.fromTo(skillContainer, {opacity:"0" ,height:0}, {duration:1,opacity:"1",height:"70",ease: "power1.inOut"})
 skill.fromTo(skillBar, {opacity:"0" ,width:0}, {duration:1,opacity:"1",width:"90%",ease: "power1.inOut"},"+=.2")
