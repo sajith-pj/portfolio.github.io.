@@ -27,7 +27,7 @@ let about = gsap.timeline( {
         start: "top 60% ",
         end:"center 10%",
         toggleActions: "play reverse restart reverse", 
-       markers:true,
+       markers:false,
       
     } // start the animation when ".box" enters the viewport (once) 
   });
@@ -46,7 +46,7 @@ let ql = gsap.timeline( {
         start: "top 80% ",
         end:"center 10% ",
         toggleActions: "play reverse restart reverse", 
-       markers:true,
+       markers:false,
       
     } // start the animation when ".box" enters the viewport (once) 
   });
@@ -62,7 +62,7 @@ let skill = gsap.timeline( {
         start: "top 80% ",
         end:"center 10% ",
         toggleActions: "play reverse restart reverse", 
-       markers:true,
+       markers:false,
       
     } // start the animation when ".box" enters the viewport (once) 
   });
