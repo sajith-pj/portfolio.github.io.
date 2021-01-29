@@ -67,7 +67,10 @@ header{
 .title{
     font-size: 96px;
     font-family: 'montserrat',sans-serif; 
-    font-weight: bold;
+    font-weight: 600;
+}
+#main-svg{
+    padding: 50px;
 }
 .intro-btn{
     display: inherit;
@@ -294,7 +297,7 @@ padding:0px 20px
 .contact-form{
 
     background-image: linear-gradient(110deg,rgba(255, 255, 255, 0.426),rgba(255, 255, 255, 0.1));
-    padding: 20px;
+    padding: 100px 80px;
     border-radius: 30px;
 }
 
