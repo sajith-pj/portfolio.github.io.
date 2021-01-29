@@ -25,7 +25,7 @@ let about = gsap.timeline( {
     scrollTrigger: {
         trigger:aboutSection,
         start: "top 60% ",
-        end:"top 10%",
+        end:"center 10%",
         toggleActions: "play reverse restart reverse", 
        markers:true,
       
@@ -44,7 +44,7 @@ let ql = gsap.timeline( {
     scrollTrigger: {
         trigger:qualification,
         start: "top 80% ",
-        end:"top 10% ",
+        end:"center 10% ",
         toggleActions: "play reverse restart reverse", 
        markers:true,
       
@@ -60,7 +60,7 @@ let skill = gsap.timeline( {
     scrollTrigger: {
         trigger:skillContainer,
         start: "top 80% ",
-        end:"top 10% ",
+        end:"center 10% ",
         toggleActions: "play reverse restart reverse", 
        markers:true,
       
